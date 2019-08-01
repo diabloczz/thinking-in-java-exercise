@@ -28,4 +28,13 @@ public class CourierInfo {
 		PrintTemplate = printTemplate;
 	}
 
+	public static void main(String[] args) {
+//		String a = "7.0";
+//		System.out.println(Double.valueOf(a).intValue());
+		String a = "170/165";
+		String[] aa = a.split("/");
+		for (String str : aa) {
+			System.out.println(str);
+		}
+	}
 }
